@@ -1,6 +1,8 @@
 ### FReMP Stack App - Frontend
 
 ```
-$ yarn start
+$ heroku buildpacks:set https://github.com/mars/create-react-app-buildpack.git
+$ git add .
+$ git commit -m 'backend to heroku'
+$ git push heroku master
 ```
-Client can be accessed at http://localhost:3000
