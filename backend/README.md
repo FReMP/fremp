@@ -1,6 +1,7 @@
 ### FReMP Stack App - Backend
 
 ```
-$ python3 app.py
+$ git add .
+$ git commit -m 'backend to heroku'
+$ git push heroku master
 ```
-Server will be running at http://localhost:5000
