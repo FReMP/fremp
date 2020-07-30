@@ -9,11 +9,8 @@
 
 ## Clone & use
 Add data in your MongoDB!
-```
-$ mongo
-$ use fremp_test_app1_db
-$ db.fremp_test_app1_col.insertOne({'data': 'Hello World from MongoDB'})
-```
+Create an account on MongoDB Atlas
+Add a JSON document in the collection
 
 Clone the repository and install the app locally.
 ```
